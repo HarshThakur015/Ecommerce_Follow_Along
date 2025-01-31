@@ -1,0 +1,9 @@
+<script>start("c:\\Users\\Harsh Thakur\\OneDrive\\Desktop\\Follow along\\Kalvium_project_1\\Frontend\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("public","public",1,0,"0 B",1738295147,"1/31/25, 9:15:47 AM");</script>
+<script>addRow("src","src",1,0,"0 B",1738295147,"1/31/25, 9:15:47 AM");</script>
+<script>addRow(".gitignore",".gitignore",0,333,"333 B",1738295124,"1/31/25, 9:15:24 AM");</script>
+<script>addRow("package-lock.json","package-lock.json",0,678041,"662 kB",1738295124,"1/31/25, 9:15:24 AM");</script>
+<script>addRow("package.json","package.json",0,998,"998 B",1738295124,"1/31/25, 9:15:24 AM");</script>
+<script>addRow("README.md","README.md",0,3429,"3.3 kB",1738295124,"1/31/25, 9:15:24 AM");</script>
+<script>addRow("tailwind.config.js","tailwind.config.js",0,476,"476 B",1738295124,"1/31/25, 9:15:24 AM");</script>
