@@ -1,7 +1,0 @@
-<script>start("c:\\Users\\Harsh Thakur\\OneDrive\\Desktop\\Follow along\\Kalvium_project_1\\Backend\\");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("src","src",1,0,"0 B",1738295147,"1/31/25, 9:15:47 AM");</script>
-<script>addRow(".gitignore",".gitignore",0,79,"79 B",1738295124,"1/31/25, 9:15:24 AM");</script>
-<script>addRow("package-lock.json","package-lock.json",0,81781,"79.9 kB",1738295124,"1/31/25, 9:15:24 AM");</script>
-<script>addRow("package.json","package.json",0,604,"604 B",1738295124,"1/31/25, 9:15:24 AM");</script>
-<script>addRow("server.js","server.js",0,575,"575 B",1738295124,"1/31/25, 9:15:24 AM");</script>
