@@ -1,11 +1,20 @@
-# Ecommerce-Follow-Along
-"Ecommerce-Follow-Along" follow project for Semester_2
+# Ecommerce Follow-Along  
 
-***Milestone 1: Project Overview***
+### **Milestone 1: Project Overview**  
+In today's live session, our mentor introduced us to the MERN Stack structure. We learned the foundational steps to set up the development environment for upcoming milestones. Additionally, we created a new repository for our follow-along project.  
 
-In todays live session our mentor introduced us to overall structure of MERN Stack. He taught us the foundational steps to set up the environment for future milestones, we created a new repository for our follow along project.
+### **Milestone 2: Development Setup & Login Page**  
 
-***Milestone 2: Created a login Page***
+- **Project Folder Structure:** Organized project files into separate frontend and backend directories.  
+- **React Frontend Setup:** Initialized a React application to build the user interface.  
+- **Node.js Backend Setup:** Set up a basic Node.js server in preparation for API integration in future milestones.  
+- **Tailwind CSS Configuration:** Integrated and configured Tailwind CSS for modern, responsive, utility-based styling.  
+- **Login Page Development:** Designed and implemented the first user interface for the e-commerce application, ensuring both functionality and styling.  
 
-In this milestone we coded along our mentor to make seprate folders for backend and frontend.
-in frontend, we made the login page.
+### **Milestone 3: Backend Setup & Database Connection**  
+
+In this mentor-led live session, we focused on:  
+- Structuring backend folders and files efficiently.  
+- Configuring and connecting the Node.js server to MongoDB.  
+- Implementing basic error-handling mechanisms.  
+
