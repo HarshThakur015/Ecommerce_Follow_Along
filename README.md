@@ -11,6 +11,7 @@ In today's live session, our mentor introduced us to the MERN Stack structure. W
 - **Tailwind CSS Configuration:** Integrated and configured Tailwind CSS for modern, responsive, utility-based styling.  
 - **Login Page Development:** Designed and implemented the first user interface for the e-commerce application, ensuring both functionality and styling.  
 
+
 ### **Milestone 3: Backend Setup & Database Connection**  
 
 In this mentor-led live session, we focused on:  
@@ -26,3 +27,5 @@ During this session, we:
 - Developed a **User Controller** to manage user-related operations (such as adding a new user or retrieving user details).  
 - Integrated and configured **Multer**, allowing the application to handle and store file uploads (e.g., user profile images).  
 - Finally, we pushed all the changes to our repository.
+=======
+
