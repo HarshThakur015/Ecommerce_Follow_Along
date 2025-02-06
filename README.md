@@ -27,5 +27,21 @@ During this session, we:
 - Developed a **User Controller** to manage user-related operations (such as adding a new user or retrieving user details).  
 - Integrated and configured **Multer**, allowing the application to handle and store file uploads (e.g., user profile images).  
 - Finally, we pushed all the changes to our repository.
-=======
+
+### **Milestone 5: Sign-Up Page & Form Validation**  
+
+In this milestone, we’ll build the **Sign-Up Page** and set up routes for user registration.  
+
+ **Learning Goals**
+- Develop a user-friendly **Sign-Up Page** (Name, Email, Password).  
+- Implement **form validation** for proper input formatting.  
+- Update the **README** to document progress.  
+
+  **Key Concepts**  
+- **Sign-Up Page:** Allows users to create an account by entering their details.  
+- **Form Validation:** Ensures correct input formats (e.g., valid email, secure password).
+
+  **Steps**  
+- Design the **Sign-Up Page** using HTML & CSS.  
+- Add validation to prevent incorrect inputs.  
 
