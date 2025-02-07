@@ -45,3 +45,16 @@ In this milestone, we’ll build the **Sign-Up Page** and set up routes for user
 - Design the **Sign-Up Page** using HTML & CSS.  
 - Add validation to prevent incorrect inputs.  
 
+# Milestone 6: Secure Signup Backend 
+
+ **Learning Goals**  
+- Encrypt passwords using bcrypt before storing them.  
+- Securely save user data in the database.  
+
+  **Why Encrypt Passwords?**   
+- Protects user data and ensures privacy.  
+- Prevents password theft and ensures compliance (GDPR, PCI-DSS).  
+
+  **Implementation Steps**  
+1. **Encrypt Passwords**: Hash passwords using bcrypt before saving.  
+2. **Store User Data**: Save user details securely with encrypted passwords.   
