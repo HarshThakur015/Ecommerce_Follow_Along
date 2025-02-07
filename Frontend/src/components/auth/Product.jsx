@@ -27,5 +27,5 @@ export default function Product({ name, images, description, price }) {
           </button>
         </div>
       </div>
-    );
+    )
   }

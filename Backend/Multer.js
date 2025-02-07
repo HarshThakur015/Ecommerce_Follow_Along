@@ -40,4 +40,4 @@ const pstorage = multer.diskStorage({
 
   // Initialize upload object
   exports.upload = multer({ storage: storage });
-  exports.pupload = multer({ storage: pstorage });
+  exports.pupload = multer({ storage: pstorage })

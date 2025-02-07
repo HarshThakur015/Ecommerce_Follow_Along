@@ -15,4 +15,4 @@ class ErrorHandler extends Error {
 }
 
 // Export the ErrorHandler class so it can be used in other parts of the application
-module.exports = ErrorHandler;
+module.exports = ErrorHandler

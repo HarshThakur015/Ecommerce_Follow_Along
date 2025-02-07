@@ -50,4 +50,4 @@ const ValidationFormObject = {
     },
   };
  
-  export default ValidationFormObject;
+  export default ValidationFormObject

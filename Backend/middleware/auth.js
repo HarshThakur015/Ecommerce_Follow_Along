@@ -8,4 +8,4 @@ const catchAsyncErrors = require("./catchAsyncError");
 
 // Import the jsonwebtoken (JWT) library
 // This library is used for creating, signing, and verifying JSON Web Tokens
-const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken")
