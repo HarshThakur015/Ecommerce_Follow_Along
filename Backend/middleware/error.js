@@ -39,4 +39,4 @@ module.exports = (err, req, res, next) => {
         success: false, // Indicate the operation was unsuccessful
         message: err.message, // Include the error message
     });
-}
+};

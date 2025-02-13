@@ -211,4 +211,4 @@ return (
 );
 };
 
-export default CreateProduct
+export default CreateProduct;

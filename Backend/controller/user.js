@@ -74,5 +74,5 @@ router.post(
         user,
     });
 }));
-module.exports = router
+module.exports = router;
  
