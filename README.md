@@ -86,3 +86,29 @@ Here’s a concise version of your content, formatted for a README file:
 3. **Verify Password** → Hash input & compare with stored hash.  
 
  **Note:** Passwords are hashed (not decrypted). We compare hashes for authentication.  
+
+---
+
+# Milestone 8: Product Card Component and Homepage Layout
+### 📝 Objective:
+In this milestone, the goal was to create a reusable Product Card Component that displays product details such as name, price, and image. These cards are then displayed on the homepage, providing an organized and visually appealing layout for the products.
+
+ **Learning Goals:**
+By the end of this milestone, I have learned:
+
+How to create a card component in React (or any framework being used).
+How to display these cards dynamically by passing product details as props.
+How to create a homepage layout to display multiple product cards using grid layout or flexbox.
+🛠 Steps Taken:
+Card Component:
+
+Designed a reusable Card component that takes props such as name, image, and price.
+The component renders the product information neatly in a card format.
+Homepage Layout:
+
+Created a grid or flexbox layout for the homepage to display multiple product cards.
+Used array mapping to dynamically render the product cards, ensuring each card is populated with the correct product data.
+
+**Key Features:**
+Dynamic Product Cards: Each product is passed as a prop, ensuring the design is reusable for any product.
+Grid/Flexbox Layout: Used CSS grid or flexbox for a clean, organized display of product cards on the homepage.
