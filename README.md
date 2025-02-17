@@ -90,7 +90,8 @@ Here’s a concise version of your content, formatted for a README file:
 ---
 
 # Milestone 8: Product Card Component and Homepage Layout
-### 📝 Objective:
+
+**Objective:-**
 In this milestone, the goal was to create a reusable Product Card Component that displays product details such as name, price, and image. These cards are then displayed on the homepage, providing an organized and visually appealing layout for the products.
 
  **Learning Goals:**
@@ -112,3 +113,31 @@ Used array mapping to dynamically render the product cards, ensuring each card i
 **Key Features:**
 Dynamic Product Cards: Each product is passed as a prop, ensuring the design is reusable for any product.
 Grid/Flexbox Layout: Used CSS grid or flexbox for a clean, organized display of product cards on the homepage.
+
+---
+
+## Milestone 9: Product Form Creation
+
+**Learning Goals**
+By the end of this milestone, you will:
+- Learn how to create a form that takes product details as input.
+- Understand how to handle multiple image uploads.
+
+**Why create product form?**
+In this milestone, we will create a form that collects all necessary details about a product, such as the product name, description, price, quantity, and images. These details will eventually be saved in a database and displayed on the product homepage from a previous milestone.
+
+Steps for milestone 9
+1. **Create a Product Form:**  
+   The form will take inputs like product name, description, price, quantity, and multiple images.
+
+2. **Handling Multiple Images:**  
+   The form will be designed to allow the user to upload multiple images for the product.
+
+3. **Optional Experimentation (Admin Access):**  
+   As an optional challenge, consider adding an admin-only feature:
+   - Only users with admin access should be allowed to upload products.
+   - Non-admin users can be restricted from submitting product forms.
+
+Feel free to experiment with adding more features, such as creating user profiles with different roles, like shop profiles that can upload products.
+
+---
