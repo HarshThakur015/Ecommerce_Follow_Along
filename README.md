@@ -141,3 +141,22 @@ Steps for milestone 9
 Feel free to experiment with adding more features, such as creating user profiles with different roles, like shop profiles that can upload products.
 
 ---
+
+## Milestone 10: Product Schema and API Endpoint
+
+**Overview:-**
+In this milestone, we created a Mongoose schema for products and built an endpoint to store product details in MongoDB. This ensures data validation and maintains integrity in the database.
+
+ Learning Outcomes
+- Defined a Mongoose schema for products.
+- Implemented validation rules for required fields.
+- Built a POST endpoint to accept product details.
+- Integrated MongoDB for data storage.
+- Ensured only valid data is saved in the database.
+
+ Implementation Steps
+1. Created a Mongoose schema defining product fields like name, description, price, and image URL.
+2. Implemented validation for required fields and data types.
+3. Built a POST API endpoint to accept product details from the frontend.
+4. Connected to MongoDB and stored valid product data.
+5. Committed and pushed all changes to the GitHub repository.
