@@ -228,3 +228,41 @@ By the end of this milestone, you will:
 
 **Expected Outcome** 
 By completing this milestone, your "My Products" page will dynamically show only the products associated with the logged-in user’s email, making the page personalized and functional.
+ 
+
+ ### Milestone 13 
+ 
+**Learning Goals**  
+By the end of this milestone, you will:  
+- Learn how to write an endpoint to update existing data in MongoDB.  
+- Understand how to auto-fill a form with previous data and provide an option to edit.  
+
+---
+
+### Steps for Milestone 13 📝  
+
+**Create a Backend Endpoint for Updating Products**  
+- Write an API route that receives the updated product details.  
+- Find the existing product in MongoDB using its unique identifier.  
+- Update the product with the new details and save the changes.  
+
+**Add an Edit Button to the Product Card** 
+- Modify the product card to include an "Edit" button.  
+- When clicked, retrieve the product’s current details and send them to the form.  
+
+**Auto-Fill the Form with Existing Data**  
+- Populate the form fields with the product's current details.  
+- Allow users to modify the fields and submit the updated information.  
+
+**Save and Reflect Changes in the Database**  
+- On form submission, send the updated data to the backend endpoint.  
+- Ensure the changes are reflected in MongoDB and update the frontend dynamically.  
+
+**Test the Functionality**  
+- Verify that clicking "Edit" correctly loads the product details into the form.  
+- Ensure that after updating, the changes are saved and displayed correctly.  
+
+---
+
+**Expected Outcome**
+By completing this milestone, you will be able to edit uploaded products, update their details in MongoDB, and reflect the changes dynamically on the frontend.
