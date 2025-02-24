@@ -194,3 +194,37 @@ By the end of this milestone, you will:
 
 **Expected Outcome**  
 By completing this milestone, your home page will dynamically display all products fetched from MongoDB, making the page fully functional and interactive.
+
+## Milestone 12 - My Products Page 🌟  
+
+### Learning Goals 🎯  
+By the end of this milestone, you will:  
+- Learn how to write an endpoint to filter and send data from MongoDB based on the logged-in user's email.  
+- Understand how to receive and handle filtered data on the frontend.  
+- Display the fetched products dynamically using the product card created earlier.  
+
+---
+
+### Steps for Milestone 12 📝  
+
+**Create a Backend Endpoint to Fetch User-Specific Products**  
+- Write an API route that queries MongoDB to retrieve only the products added by the logged-in user.  
+- Use the user's email to filter the data from the database.  
+- Send the filtered product data as a JSON response.  
+
+**Fetch Data on the Frontend**
+- Make an API request from the frontend to fetch the products associated with the logged-in user’s email.  
+- Ensure proper handling of the response to extract and display the required data.  
+
+**Display Products Dynamically** 
+- Use the existing product card component to display each product.  
+- Iterate through the received data and render each item dynamically.  
+
+**Test the Page** 
+- Verify that only the products added by the logged-in user are displayed.  
+- Handle any errors or missing data appropriately.  
+
+---
+
+**Expected Outcome** 
+By completing this milestone, your "My Products" page will dynamically show only the products associated with the logged-in user’s email, making the page personalized and functional.
