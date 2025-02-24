@@ -160,3 +160,37 @@ In this milestone, we created a Mongoose schema for products and built an endpoi
 3. Built a POST API endpoint to accept product details from the frontend.
 4. Connected to MongoDB and stored valid product data.
 5. Committed and pushed all changes to the GitHub repository.
+
+## Milestone 11 - Making the Home Page Dynamic 🌟  
+
+### Learning Goals 🎯  
+By the end of this milestone, you will:  
+- Understand how to write an endpoint to extract and send data from MongoDB.  
+- Learn how to receive data on the frontend.  
+- Display the fetched data dynamically using the product card created earlier.  
+
+---
+
+### Steps for Milestone 11 📝  
+
+**Set Up the Backend Endpoint** 
+- Create a new route in your backend to fetch all products from MongoDB.  
+- Use the appropriate method to retrieve data from the database.  
+- Send the data as a JSON response to the frontend.  
+
+**Connect the Frontend to the Backend**  
+- Make an API request from the frontend to fetch the product data.  
+- Ensure proper handling of the response to extract the required product details.  
+
+**Display the Products Dynamically** 
+- Use the previously created product card component to display each product.  
+- Iterate through the received product data and render each item dynamically.  
+
+**Test the Functionality**  
+- Ensure the data is fetched correctly from MongoDB and displayed on the home page.  
+- Check for errors or missing data and debug if necessary.  
+
+---
+
+**Expected Outcome**  
+By completing this milestone, your home page will dynamically display all products fetched from MongoDB, making the page fully functional and interactive.
