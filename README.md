@@ -239,7 +239,7 @@ By the end of this milestone, you will:
 
 ---
 
-### Steps for Milestone 13 📝  
+ **Steps for Milestone 13**  
 
 **Create a Backend Endpoint for Updating Products**  
 - Write an API route that receives the updated product details.  
@@ -266,3 +266,23 @@ By the end of this milestone, you will:
 
 **Expected Outcome**
 By completing this milestone, you will be able to edit uploaded products, update their details in MongoDB, and reflect the changes dynamically on the frontend.
+
+---
+
+Here’s a well-structured version of your README update:  
+
+---
+
+## Milestone 14: Delete Product Functionality 🚀  
+  
+Welcome to Milestone 14!   
+
+ **Overview** 
+In this milestone, we will enhance our product management system by adding functionality to delete a product. 
+We will implement a backend endpoint that allows deletion of a product using its unique ID from MongoDB.  
+
+ **Learning Goals**  
+By the end of this milestone, you will:  
+ Understand how to create a DELETE API endpoint in Express.js.  
+ Learn how to remove a specific product from MongoDB using Mongoose.  
+ Enhance your backend development skills by handling deletion requests properly.  
