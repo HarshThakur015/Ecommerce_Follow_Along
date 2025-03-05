@@ -304,3 +304,14 @@ By the end of this milestone, you will:
 3. Add the Nav component to all pages for smooth navigation.  
 
 This milestone covers creating a navbar and enabling seamless page navigation.
+
+### Milestone 16 : Create an product info page that display all the product data and choose quantity and add to card button
+
+**Learning Goals**  
+By the end of this milestone, you will:  
+- Create a new page to display each product.  
+- Add quantity selection and an "Add to Cart" button.  
+
+ **Steps for Milestone 16** 
+1. Create a product info page to display all product details.  
+2. Add a quantity selector and an "Add to Cart" button.
