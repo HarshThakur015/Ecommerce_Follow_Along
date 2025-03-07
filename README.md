@@ -315,3 +315,17 @@ By the end of this milestone, you will:
  **Steps for Milestone 16** 
 1. Create a product info page to display all product details.  
 2. Add a quantity selector and an "Add to Cart" button.
+
+### Milestone 17 - Add Products to Cart
+
+Today, we will write a backend endpoint to add products to the cart and store them in the database.
+
+**Learning Goals**
+By the end of this milestone, you will:
+
+- Edit the user schema to store cart products.
+- Write an endpoint to receive the product details and store them in the database.
+
+**Steps for Milestone 17**
+1. Write the cart schema to store products.
+2. Write an endpoint to receive and store product details in the cart.
