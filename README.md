@@ -329,3 +329,23 @@ By the end of this milestone, you will:
 **Steps for Milestone 17**
 1. Write the cart schema to store products.
 2. Write an endpoint to receive and store product details in the cart.
+
+---
+
+### Milestone 18 - Fetch Products from Cart
+
+Welcome to Milestone 18! 
+
+Today, we will create a backend endpoint for the cart page. We will write the backend logic to fetch all the products inside the user's cart to display on the cart page.
+
+**Learning Goals**
+By the end of this milestone, you will:
+
+- Create an endpoint to receive requests from the cart page.
+- Create a backend endpoint to fetch all the products inside the cart using the user's email.
+
+**Steps for Milestone 18**
+1. Create a backend endpoint for the cart page.
+2. Write an endpoint to get the products inside the cart for the user.
+
+This lesson will help you understand how to create cart functionality.
