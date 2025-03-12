@@ -350,7 +350,6 @@ By the end of this milestone, you will:
 
 This lesson will help you understand how to create cart functionality.
 
-```
 
 ### Milestone 19: Cart Functionality
 
