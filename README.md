@@ -350,7 +350,9 @@ By the end of this milestone, you will:
 
 This lesson will help you understand how to create cart functionality.
 
-# Milestone 19: Cart Functionality
+```
+
+### Milestone 19: Cart Functionality
 
 **Learning Goals**
 By the end of this milestone, you will:
@@ -377,3 +379,38 @@ By the end of this milestone, you will:
 **Summary**
 This milestone will help in understanding how to create cart functionality, including UI development and API integration to modify product quantities dynamically.
 
+---
+
+### Milestone 20 - Profile Page Frontend & Backend Endpoint
+
+**Introduction**
+
+Welcome to **Milestone 20**. In this milestone, we will develop a profile page frontend and implement a backend endpoint to retrieve and display user data effectively.
+
+
+
+**Objectives**
+By the completion of this milestone, you will:
+
+- Develop a backend endpoint to retrieve and send user data via email.
+- Implement a frontend profile page to display user details.
+- Ensure the display of profile information, including the profile photo, name, email, and addresses.
+
+
+**Implementation Steps**
+
+1. **Backend Development:**
+   - Develop an endpoint to retrieve and transmit user data.
+   - Ensure that the endpoint securely sends user data via email.
+
+2. **Frontend Development:**
+   - Design and implement a structured profile page to present user data.
+   - Display the profile photo, name, and email in a dedicated section.
+   - Present the user’s address details in a separate section.
+   - Include an **"Add Address"** button to facilitate the addition of new addresses.
+   - Display a message stating **"No address found"** when no address data is available.
+
+
+**Conclusion**
+
+This milestone provides essential knowledge on structuring and displaying a user profile page effectively. The implementation will enhance the understanding of frontend-backend interaction for user data management.
