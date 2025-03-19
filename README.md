@@ -350,6 +350,7 @@ By the end of this milestone, you will:
 
 This lesson will help you understand how to create cart functionality.
 
+---
 
 ### Milestone 19: Cart Functionality
 
@@ -414,7 +415,12 @@ By the completion of this milestone, you will:
 
 This milestone provides essential knowledge on structuring and displaying a user profile page effectively. The implementation will enhance the understanding of frontend-backend interaction for user data management.
 
+Milestone_22
 ### Milestone 21 :- Create an frontend page form for address input.
+
+---
+
+#### Milestone 21 :- Create an frontend page form for address input.
 
 **Address Form Frontend Page**
 
@@ -432,6 +438,8 @@ By the end of this milestone, you will:
 
 **Objective**
 This lesson will help in understanding how to build and manage an address input form in a frontend application.
+
+ Milestone_22
 
 ### Milestone 22 :- Backend Endpoint for Storing User Address
 
