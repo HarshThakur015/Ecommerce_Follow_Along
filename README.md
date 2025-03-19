@@ -414,7 +414,7 @@ By the completion of this milestone, you will:
 
 This milestone provides essential knowledge on structuring and displaying a user profile page effectively. The implementation will enhance the understanding of frontend-backend interaction for user data management.
 
-#### Milestone 21 :- Create an frontend page form for address input.
+### Milestone 21 :- Create an frontend page form for address input.
 
 **Address Form Frontend Page**
 
@@ -432,3 +432,20 @@ By the end of this milestone, you will:
 
 **Objective**
 This lesson will help in understanding how to build and manage an address input form in a frontend application.
+
+### Milestone 22 :- Backend Endpoint for Storing User Address
+
+**Learning Goals**
+By the end of this milestone, you will:
+
+- Create a backend endpoint that will store the address inside the user profile in the database.
+
+**Steps for Milestone 22**
+
+1. Create an endpoint that will receive the address from the address form in the frontend.
+2. Add the address to the address array inside the user collection.
+
+This lesson will help in understanding how to create an endpoint that will store the address in the database.
+
+**Conclusion**
+By completing this milestone, you will gain hands-on experience in creating a backend endpoint that interacts with the database. This will strengthen your understanding of handling user data and managing database operations effectively.
