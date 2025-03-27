@@ -449,3 +449,28 @@ This lesson will help in understanding how to create an endpoint that will store
 
 **Conclusion**
 By completing this milestone, you will gain hands-on experience in creating a backend endpoint that interacts with the database. This will strengthen your understanding of handling user data and managing database operations effectively.
+
+### Milestone 23: Implementing Place Order Functionality
+
+**Learning Goals**
+By the end of this milestone, you will:
+
+- Add a button inside the cart called "Place Order."
+- Create a select address page where all saved addresses will be displayed, allowing the user to choose a delivery address.
+- Write a Mongoose schema for storing order details.
+
+**Steps for Milestone 23**
+
+1. **Create a Place Order Button**
+   - Add a "Place Order" button inside the cart page.
+   - When clicked, navigate to the select address page.
+
+2. **Create the Select Address Page**
+   - Display all available addresses of the user.
+   - Provide an option to select one delivery address.
+
+3. **Write a Backend Endpoint**
+   - Create an endpoint that retrieves and sends all addresses of the user.
+
+**Note**
+This milestone will help in understanding how to implement the place order functionality in an e-commerce application.
