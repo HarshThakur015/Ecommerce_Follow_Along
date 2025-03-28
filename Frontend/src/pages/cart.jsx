@@ -1,13 +1,21 @@
+import { useNavigate } from 'react-router-dom';
 import CartProduct from '../components/auth/CartProduct';
-import NavBar from '../components/auth/Nav';
+import NavBar from '../components/auth/nav';
 import { useState, useEffect } from 'react';
 
+import { useSelector } from 'react-redux'; // Import useSelector
 const Cart = () => {
 
     const [products, setProducts] = useState([]);
+    const navigate = useNavigate();
+
+    // Get the email from Redux state
+    const email = useSelector((state) => state.user.email);
 
     useEffect(() => {
-        fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'haryy@gmail.com'}`)
+       // Only fetch if email is available
+    if (!email) return;
+    fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${email}`)
           .then((res) => {
             if (!res.ok) {
               throw new Error(`HTTP error! status: ${res.status}`);
@@ -15,16 +23,23 @@ const Cart = () => {
             return res.json();
           })
           .then((data) => {
-            setProducts(data.cart.map(product => ({quantity: product['quantity'], ...product['productId']})));
+            setProducts(
+              data.cart.map(product => ({
+                quantity: product['quantity'],
+                ...product['productId']
+              }))
+            );
             console.log("Products fetched:", data.cart);
           })
           .catch((err) => {
             console.error(" Error fetching products:", err);
           });
-      }, []);
+      }, [email]);
     
       console.log("Products:", products);
-
+      const handlePlaceOrder = () => {
+        navigate('/select-address'); // Navigate to the Select Address page
+      };
     return (
         <div className='w-full h-screen'>
             <NavBar />
@@ -40,9 +55,18 @@ const Cart = () => {
                             ))
                         }
                     </div>
-                </div>
-            </div>
+                    <div className='w-full p-4 flex justify-end'>
+            <button
+              onClick={handlePlaceOrder}
+              className='bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600'
+            >
+              Place Order
+            </button>
+          </div>
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
+
 export default Cart;

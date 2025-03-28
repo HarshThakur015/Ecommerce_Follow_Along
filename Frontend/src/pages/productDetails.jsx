@@ -5,7 +5,7 @@ import axios from "axios";
 import { IoIosAdd } from "react-icons/io";
 import { IoIosRemove } from "react-icons/io";
 import NavBar from "../components/auth/Nav";
-
+import { useSelector } from "react-redux"; // Import useSelector
 export default function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -13,7 +13,8 @@ export default function ProductDetails() {
   const [error, setError] = useState(null);
   const [quantity, setQuantity] = useState(1);
   // write only signed email 
-  const email = "haryy@gmail.com";
+ // Get email from Redux state
+ const email = useSelector((state) => state.user.email);
 
   useEffect(() => {
     const fetchProduct = async () => {
