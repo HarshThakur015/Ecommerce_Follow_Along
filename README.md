@@ -450,6 +450,8 @@ This lesson will help in understanding how to create an endpoint that will store
 **Conclusion**
 By completing this milestone, you will gain hands-on experience in creating a backend endpoint that interacts with the database. This will strengthen your understanding of handling user data and managing database operations effectively.
 
+---
+
 ### Milestone 23: Implementing Place Order Functionality
 
 **Learning Goals**
@@ -474,3 +476,17 @@ By the end of this milestone, you will:
 
 **Note**
 This milestone will help in understanding how to implement the place order functionality in an e-commerce application.
+
+### Milestone 24: Order Conformation Page.
+
+**Learning Goals**
+By the end of this milestone, you will:
+- Create an order confirmation page.
+
+**Steps for Milestone 24**
+1. Display all the products being ordered.
+2. Show the address selected by the user for delivery.
+3. Display the total value of the cart.
+4. Include a "Place Order" button at the bottom.
+
+**Note:** This lesson will help in understanding how to implement the place order functionality.
