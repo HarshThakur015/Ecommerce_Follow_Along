@@ -498,3 +498,21 @@ By the end of this milestone, you will:
 4. Include a "Place Order" button at the bottom.
 
 **Note:** This lesson will help in understanding how to implement the place order functionality.
+
+---
+
+### Milestone 25: Backend Endpoint for Placing an Order
+
+**Learning Goals**
+By the end of this milestone, you will:
+- Create a backend endpoint that will facilitate placing an order.
+
+**Steps for Milestone 25**
+1. Create an endpoint that will receive the following details:
+   - Products
+   - User information
+   - Address details
+2. Retrieve the user's email and use it to fetch the `_id` of the user.
+3. For each product, a separate order will be created with the same address.
+4. Store order details in the MongoDB `order` collection using the previously created order schema.
+
