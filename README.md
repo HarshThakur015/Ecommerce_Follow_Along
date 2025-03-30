@@ -508,3 +508,26 @@ By the end of this milestone, you will:
 3. For each product, a separate order will be created with the same address.
 4. Store order details in the MongoDB `order` collection using the previously created order schema.
 
+### Milestone 26: Backend Endpoint for Placing and Retrieving Orders
+
+**Learning Goals**
+By the end of these milestones, you will:
+- Create a backend endpoint that will facilitate placing an order.
+- Create a backend endpoint to retrieve all orders of a user.
+
+**Steps for Milestone 25**
+1. Create an endpoint that will receive the following details:
+   - Products
+   - User information
+   - Address details
+2. Retrieve the user's email and use it to fetch the `_id` of the user.
+3. For each product, a separate order will be created with the same address.
+4. Store order details in the MongoDB `order` collection using the previously created order schema.
+
+#**Steps for Milestone 26**
+1. Create an endpoint that will receive the user's email.
+2. Retrieve the `_id` of the user using the provided email.
+3. Use that `_id` to fetch all orders associated with the user.
+4. Send all the user's orders in the response.
+
+This milestone will help in understanding how to retrieve all orders for a specific user.
