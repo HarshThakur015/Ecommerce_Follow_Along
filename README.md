@@ -586,3 +586,24 @@ By the end of this milestone, you will be able to:
 2. If an order is already canceled, do not display the cancel button.
 3. Create a backend endpoint that receives the order ID.
 4. Use this ID to find the order in the database, update its status to "canceled", and save the changes.
+
+---
+
+### Milestone 29 - Integrating PayPal Payment Gateway 💳
+Hey Kalvians! 👋 Welcome to Milestone 29! In this milestone, we will learn how to integrate an online payment gateway into our application using the PayPal API.
+
+## 🎯 Learning Goals
+By the end of this milestone, you will be able to:
+- Understand how to use the PayPal API.
+- Integrate online payment options into your application.
+
+## 📝 Steps to Complete
+1. Create a PayPal account and log in to the PayPal Developer Dashboard.
+2. Navigate to the Sandbox Accounts section.
+3. Copy the UserID of your sandbox account and save it.
+4. Find your Client ID in the sandbox account and save it for integration.
+5. On the order confirmation page, add two payment options: Cash on Delivery (COD) and Online Payment.
+6. Create radio buttons to select between COD and Online Payment.
+7. When Online Payment is selected, display the PayPal payment buttons.
+
+Note: In the next milestone, we will write the code to display and use the PayPal payment buttons.
