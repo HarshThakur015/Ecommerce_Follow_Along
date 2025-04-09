@@ -3,6 +3,8 @@
 ### **Milestone 1: Project Overview**  
 In today's live session, our mentor introduced us to the MERN Stack structure. We learned the foundational steps to set up the development environment for upcoming milestones. Additionally, we created a new repository for our follow-along project.  
 
+---
+
 ### **Milestone 2: Development Setup & Login Page**  
 
 - **Project Folder Structure:** Organized project files into separate frontend and backend directories.  
@@ -11,14 +13,17 @@ In today's live session, our mentor introduced us to the MERN Stack structure. W
 - **Tailwind CSS Configuration:** Integrated and configured Tailwind CSS for modern, responsive, utility-based styling.  
 - **Login Page Development:** Designed and implemented the first user interface for the e-commerce application, ensuring both functionality and styling.  
 
+---
+
 
 ### **Milestone 3: Backend Setup & Database Connection**  
 
 In this mentor-led live session, we focused on:  
 - Structuring backend folders and files efficiently.  
 - Configuring and connecting the Node.js server to MongoDB.  
-- Implementing basic error-handling mechanisms.  
+- Implementing basic error-handling mechanisms.
 
+---
 
 ### **Milestone 4: User Model & File Upload Configuration**  
 
@@ -27,6 +32,8 @@ During this session, we:
 - Developed a **User Controller** to manage user-related operations (such as adding a new user or retrieving user details).  
 - Integrated and configured **Multer**, allowing the application to handle and store file uploads (e.g., user profile images).  
 - Finally, we pushed all the changes to our repository.
+
+---
 
 ### **Milestone 5: Sign-Up Page & Form Validation**  
 
@@ -44,6 +51,8 @@ In this milestone, we’ll build the **Sign-Up Page** and set up routes for user
   **Steps**  
 - Design the **Sign-Up Page** using HTML & CSS.  
 - Add validation to prevent incorrect inputs.  
+
+---
 
 ### Milestone 6: Secure Signup Backend 
 
@@ -161,6 +170,8 @@ In this milestone, we created a Mongoose schema for products and built an endpoi
 4. Connected to MongoDB and stored valid product data.
 5. Committed and pushed all changes to the GitHub repository.
 
+---
+
 ### Milestone 11 - Making the Home Page Dynamic 🌟  
 
 ### Learning Goals 🎯  
@@ -195,15 +206,15 @@ By the end of this milestone, you will:
 **Expected Outcome**  
 By completing this milestone, your home page will dynamically display all products fetched from MongoDB, making the page fully functional and interactive.
 
-## Milestone 12 - My Products Page 🌟  
+---
+
+### Milestone 12 - My Products Page 🌟  
 
 ### Learning Goals 🎯  
 By the end of this milestone, you will:  
 - Learn how to write an endpoint to filter and send data from MongoDB based on the logged-in user's email.  
 - Understand how to receive and handle filtered data on the frontend.  
 - Display the fetched products dynamically using the product card created earlier.  
-
----
 
 ### Steps for Milestone 12 📝  
 
@@ -224,11 +235,11 @@ By the end of this milestone, you will:
 - Verify that only the products added by the logged-in user are displayed.  
 - Handle any errors or missing data appropriately.  
 
----
 
 **Expected Outcome** 
 By completing this milestone, your "My Products" page will dynamically show only the products associated with the logged-in user’s email, making the page personalized and functional.
  
+ ---
 
  ### Milestone 13 
  
@@ -236,8 +247,6 @@ By completing this milestone, your "My Products" page will dynamically show only
 By the end of this milestone, you will:  
 - Learn how to write an endpoint to update existing data in MongoDB.  
 - Understand how to auto-fill a form with previous data and provide an option to edit.  
-
----
 
  **Steps for Milestone 13**  
 
@@ -262,14 +271,8 @@ By the end of this milestone, you will:
 - Verify that clicking "Edit" correctly loads the product details into the form.  
 - Ensure that after updating, the changes are saved and displayed correctly.  
 
----
-
 **Expected Outcome**
 By completing this milestone, you will be able to edit uploaded products, update their details in MongoDB, and reflect the changes dynamically on the frontend.
-
----
-
-Here’s a well-structured version of your README update:  
 
 ---
 
@@ -286,6 +289,8 @@ By the end of this milestone, you will:
  Understand how to create a DELETE API endpoint in Express.js.  
  Learn how to remove a specific product from MongoDB using Mongoose.  
  Enhance your backend development skills by handling deletion requests properly.  
+
+ ---
 
 ### Milestone 15: Create and Navbar component and add nav component to every screen.
 
@@ -305,6 +310,8 @@ By the end of this milestone, you will:
 
 This milestone covers creating a navbar and enabling seamless page navigation.
 
+---
+
 ### Milestone 16 : Create an product info page that display all the product data and choose quantity and add to card button
 
 **Learning Goals**  
@@ -315,6 +322,8 @@ By the end of this milestone, you will:
  **Steps for Milestone 16** 
 1. Create a product info page to display all product details.  
 2. Add a quantity selector and an "Add to Cart" button.
+
+---
 
 ### Milestone 17 - Add Products to Cart
 
@@ -415,7 +424,7 @@ By the completion of this milestone, you will:
 
 This milestone provides essential knowledge on structuring and displaying a user profile page effectively. The implementation will enhance the understanding of frontend-backend interaction for user data management.
 
-Milestone_22
+
 ### Milestone 21 :- Create an frontend page form for address input.
 
 ---
@@ -439,7 +448,6 @@ By the end of this milestone, you will:
 **Objective**
 This lesson will help in understanding how to build and manage an address input form in a frontend application.
 
- Milestone_22
 
 ### Milestone 22 :- Backend Endpoint for Storing User Address
 
@@ -485,6 +493,8 @@ By the end of this milestone, you will:
 **Note**
 This milestone will help in understanding how to implement the place order functionality in an e-commerce application.
 
+---
+
 ### Milestone 24: Order Conformation Page.
 
 **Learning Goals**
@@ -516,6 +526,8 @@ By the end of this milestone, you will:
 3. For each product, a separate order will be created with the same address.
 4. Store order details in the MongoDB `order` collection using the previously created order schema.
 
+---
+
 ### Milestone 26: Backend Endpoint for Placing and Retrieving Orders
 
 **Learning Goals**
@@ -540,6 +552,8 @@ By the end of these milestones, you will:
 
 This milestone will help in understanding how to retrieve all orders for a specific user.
 
+---
+
 ### Milestone 27 - My Orders Page 🧾
 Hey Kalvians! 👋 Welcome to Milestone 27! In this milestone, we will create a frontend page to display all user orders.
 
@@ -557,3 +571,19 @@ By the end of this milestone, you will be able to:
 3. Pass User Email: Include the logged-in user’s email in the request to fetch relevant orders.
 4. Display Orders: Render the list of orders on the `my-orders` page in a clean and structured format.
 5. Update Navigation Bar: Add a link to the `my-orders` page in the navbar for better user navigation.
+
+---
+
+### Milestone 28 - Cancel Order Functionality 🚫
+Hey Kalvians! 👋 Welcome to Milestone 28! In this milestone, we will add a cancel button in the My Orders page and create a backend endpoint to handle order cancellations.
+
+## 🎯 Learning Goals
+By the end of this milestone, you will be able to:
+- Allow users to cancel their placed orders.
+- Create a backend endpoint to handle order cancellation.
+
+## 📝 Steps to Complete
+1. In the My Orders page, add a "Cancel Order" button for each order.
+2. If an order is already canceled, do not display the cancel button.
+3. Create a backend endpoint that receives the order ID.
+4. Use this ID to find the order in the database, update its status to "canceled", and save the changes.
