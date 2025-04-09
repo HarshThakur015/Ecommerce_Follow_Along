@@ -45,7 +45,7 @@ In this milestone, we’ll build the **Sign-Up Page** and set up routes for user
 - Design the **Sign-Up Page** using HTML & CSS.  
 - Add validation to prevent incorrect inputs.  
 
-# Milestone 6: Secure Signup Backend 
+### Milestone 6: Secure Signup Backend 
 
  **Learning Goals**  
 - Encrypt passwords using bcrypt before storing them.  
@@ -63,7 +63,7 @@ Here’s a concise version of your content, formatted for a README file:
 
 ---
 
-# Milestone 7: User Login Backend 🚀  
+### Milestone 7: User Login Backend 🚀  
 
  **Learning Goals**  
 - Validate user credentials during login.  
@@ -89,7 +89,7 @@ Here’s a concise version of your content, formatted for a README file:
 
 ---
 
-# Milestone 8: Product Card Component and Homepage Layout
+### Milestone 8: Product Card Component and Homepage Layout
 
 **Objective:-**
 In this milestone, the goal was to create a reusable Product Card Component that displays product details such as name, price, and image. These cards are then displayed on the homepage, providing an organized and visually appealing layout for the products.
@@ -116,7 +116,7 @@ Grid/Flexbox Layout: Used CSS grid or flexbox for a clean, organized display of 
 
 ---
 
-## Milestone 9: Product Form Creation
+### Milestone 9: Product Form Creation
 
 **Learning Goals**
 By the end of this milestone, you will:
@@ -142,7 +142,7 @@ Feel free to experiment with adding more features, such as creating user profile
 
 ---
 
-## Milestone 10: Product Schema and API Endpoint
+### Milestone 10: Product Schema and API Endpoint
 
 **Overview:-**
 In this milestone, we created a Mongoose schema for products and built an endpoint to store product details in MongoDB. This ensures data validation and maintains integrity in the database.
@@ -161,7 +161,7 @@ In this milestone, we created a Mongoose schema for products and built an endpoi
 4. Connected to MongoDB and stored valid product data.
 5. Committed and pushed all changes to the GitHub repository.
 
-## Milestone 11 - Making the Home Page Dynamic 🌟  
+### Milestone 11 - Making the Home Page Dynamic 🌟  
 
 ### Learning Goals 🎯  
 By the end of this milestone, you will:  
@@ -273,7 +273,7 @@ Here’s a well-structured version of your README update:
 
 ---
 
-## Milestone 14: Delete Product Functionality 🚀  
+### Milestone 14: Delete Product Functionality 🚀  
   
 Welcome to Milestone 14!   
 
@@ -287,7 +287,7 @@ By the end of this milestone, you will:
  Learn how to remove a specific product from MongoDB using Mongoose.  
  Enhance your backend development skills by handling deletion requests properly.  
 
-## Milestone 15: Create and Navbar component and add nav component to every screen.
+### Milestone 15: Create and Navbar component and add nav component to every screen.
 
 **Learning Goals**  
 By the end of this milestone, you will:  
@@ -531,3 +531,21 @@ By the end of these milestones, you will:
 4. Send all the user's orders in the response.
 
 This milestone will help in understanding how to retrieve all orders for a specific user.
+
+### Milestone 27 - My Orders Page 🧾
+Hey Kalvians! 👋 Welcome to Milestone 27! In this milestone, we will create a frontend page to display all user orders.
+
+## 🎯 Learning Goals
+By the end of this milestone, you will be able to:
+- Create a frontend page for viewing user orders.
+- Send a GET request to the `my-orders` endpoint.
+- Pass the user’s email in the API request to fetch their orders.
+- Display all retrieved orders on the page.
+- Add the "My Orders" page to the navigation bar for easy access.
+
+## 📝 Steps to Complete
+1. Create a `my-orders` Page: Build a new frontend page that will serve as the My Orders page for users.
+2. Send GET Request: Use the `my-orders` endpoint created in the previous milestone to fetch user-specific orders.
+3. Pass User Email: Include the logged-in user’s email in the request to fetch relevant orders.
+4. Display Orders: Render the list of orders on the `my-orders` page in a clean and structured format.
+5. Update Navigation Bar: Add a link to the `my-orders` page in the navbar for better user navigation.
