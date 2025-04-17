@@ -607,3 +607,26 @@ By the end of this milestone, you will be able to:
 7. When Online Payment is selected, display the PayPal payment buttons.
 
 Note: In the next milestone, we will write the code to display and use the PayPal payment buttons.
+
+---
+
+### Milestone 30: Integrating PayPal API for Online Payments
+
+## Welcome to Milestone!
+
+Today, we will learn how to add an online payment gateway to our application using the PayPal API. This is a continuation of **Milestone 29**, where you created a PayPal account and obtained the UserID.
+
+## Learning Goals
+By the end of this milestone, you will:
+
+- Learn how to use the PayPal API.
+- Learn how to integrate online payments into your application.
+
+## Steps for Milestone 30
+
+1. After creating a PayPal account and getting the UserID inside your sandbox account, proceed to the next step.
+2. Implement online payment functionality using the PayPal API and the client key you created earlier.
+3. Download the NPM package called `react-paypal-js`. This package provides a component called `PayPalScriptProvider`, which will display online payment options like credit or debit cards.
+4. This lesson will help you understand how to integrate online payments into your application.
+
+---
