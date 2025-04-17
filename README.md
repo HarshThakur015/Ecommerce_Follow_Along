@@ -630,3 +630,36 @@ By the end of this milestone, you will:
 4. This lesson will help you understand how to integrate online payments into your application.
 
 ---
+
+### Milestone 31: Implementing Global State Management Using Redux
+
+## Learning Goals
+
+By the end of this milestone, you will:
+
+- Understand how to use Redux for global state management.
+- Implement a Redux store to manage global states such as user email.
+
+## Steps for Milestone 31
+
+1. **Install Redux**  
+   Install the npm package called `react-redux`.
+
+2. **Create Store Structure**  
+   Create a new folder called `store` with the following two files:
+   - `store.js`
+   - `userActions.js`
+
+3. **Set Up Global State**  
+   We will store the user's email inside the global state.
+
+4. **Configure Store**  
+   In `store.js`, configure a Redux store using a `userReducer` function. This reducer will manage the global state for the user's email.
+
+5. **Define Actions**  
+   In `userActions.js`, write a function called `setEmail`. This function will be used to update the email in the global state.
+
+6. **Wrap Application with Provider**  
+   In `index.js`, wrap the `App` component inside the `Provider` component from `react-redux`, and pass the `store` as a prop.
+
+---
