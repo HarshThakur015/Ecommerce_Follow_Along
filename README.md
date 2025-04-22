@@ -686,4 +686,22 @@ If you haven’t already:
   ```bash
   npm install @reduxjs/toolkit react-redux
 
----
+# Milestone 33 - JWT Token Creation and Cookie Storage 🔐
+
+Welcome to **Milestone 33**! 🌟  
+Today you'll learn how to securely create and store a **JWT token** inside a browser **cookie** for user session management.
+
+## 🎯 Learning Goals
+
+By the end of this milestone, you will:
+
+- Understand how to create a JWT token using `jsonwebtoken`.
+- Store the JWT token in a browser cookie via the server response.
+- Set an expiration time (`maxAge`) for secure session handling.
+
+## 📝 Steps to Complete Milestone 33
+
+# 1. Install `jsonwebtoken` Package
+Use the following command to install:
+```bash
+npm install jsonwebtoken
