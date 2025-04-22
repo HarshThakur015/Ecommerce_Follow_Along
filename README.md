@@ -663,3 +663,26 @@ By the end of this milestone, you will:
    In `index.js`, wrap the `App` component inside the `Provider` component from `react-redux`, and pass the `store` as a prop.
 
 ---
+
+### Milestone 32 - Global State Management with Redux 🌍
+
+Welcome to **Milestone 32**! 🎯  
+In this milestone, we'll integrate Redux to manage and access the user's **email** across multiple pages in our application.
+
+## 🚀 Learning Objectives
+
+By the end of this milestone, you will be able to:
+
+- Understand how to store and retrieve global state using Redux.
+- Use `dispatch` to store the email in the Redux store.
+- Use `useSelector` to access the stored email on any page in the app.
+
+## 📝 Steps to Complete Milestone 32
+
+## 1. Setup Redux (if not already done)
+If you haven’t already:
+- Install Redux and React-Redux:
+  ```bash
+  npm install @reduxjs/toolkit react-redux
+
+---
