@@ -704,3 +704,27 @@ By the end of this milestone, you will:
 Use the following command to install:
 ```bash
 npm install jsonwebtoken
+
+---
+
+### Milestone 34:- Create validate the JWT token.
+
+Learn how to securely validate JWT tokens stored inside cookies to protect your app’s private routes.
+
+## 🎯 Learning Goals
+
+- Extract JWT tokens from browser cookies.
+- Validate tokens on the server.
+- Restrict page access without a valid token.
+
+## 📝 Steps
+
+1️⃣ Extract the JWT token from browser cookies and send it to the server.  
+2️⃣ Create a middleware in the backend to verify the token.  
+3️⃣ Protect every private route with this middleware, ensuring users can’t access them without a valid login session.
+
+By the end of this milestone, you’ll know how to:
+
+- Extract and validate JWT tokens from cookies.
+- Secure your routes using middleware.
+- Implement route protection based on authentication.
