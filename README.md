@@ -703,7 +703,7 @@ By the end of this milestone, you will:
 
 # 1. Install `jsonwebtoken` Package
 Use the following command to install:
-```bash
+
 npm install jsonwebtoken
 
 ---
