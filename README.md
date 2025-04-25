@@ -729,3 +729,30 @@ By the end of this milestone, you’ll know how to:
 - Extract and validate JWT tokens from cookies.
 - Secure your routes using middleware.
 - Implement route protection based on authentication.
+
+---
+
+### Milestone 35: Deployment Guide
+
+## Learning Goals
+By the end of this milestone, you will:
+
+- Learn how to deploy your frontend.
+- Learn how to deploy your backend.
+  
+## Steps for Milestone 35
+
+1. **Deploy Backend:**
+   - Deploy your backend on any deployment service of your choice.
+   - Once deployed, get the backend deployment link.
+
+2. **Update Frontend:**
+   - Replace the localhost URL in the frontend with the backend deployment link.
+
+3. **Deploy Frontend:**
+   - Deploy your frontend on any deployment service of your choice.
+
+4. **Testing:**
+   - Ensure both the frontend and backend are correctly deployed and working properly.
+
+By the end of this milestone, you will have a fully deployed website that is ready and functional.
